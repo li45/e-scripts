@@ -14,7 +14,8 @@ cat > screen_shot.plist << EOF
     <true/>
     <key>ProgramArguments</key>
     <array>
-        <string>${workspace}/screen_shot.sh</string>
+	<string>osascript</string>
+        <string>${workspace}/screen_shot.applescript</string>
     </array>
     <key>StartInterval</key>
     <integer>1800</integer>
